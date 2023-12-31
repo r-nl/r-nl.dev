@@ -9,9 +9,9 @@
 	});
 </script>
 
-<div id="spline-viwer" class="w-full h-full">
+<div id="spline-viwer" class="w-screen h-screen max-h-[60dvw]">
 	{#if loaded}
-		<spline-viewer {url} loading-anim-type="spinner-small-dark" />
+		<spline-viewer loading-anim loading-anim-type="spinner-big-dark" {url} />
 	{:else}
 		<div />
 	{/if}
