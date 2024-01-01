@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {},
 		colors: {
-			nearBlack: '#0e0e0e',
+			nearBlack: '#100f10',
       white: '#ffffff'
 		},
 		fontFamily: {
