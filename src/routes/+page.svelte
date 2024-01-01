@@ -1,9 +1,5 @@
 <script>
 	import SplineViewer from '$lib/components/SplineViewer.svelte';
-	import { onMount } from 'svelte';
-	onMount(async () => {
-		await import('@splinetool/viewer');
-	});
 </script>
 
 <svelte:head>
