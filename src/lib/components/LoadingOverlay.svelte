@@ -30,7 +30,7 @@
 	</div>
 	<div class="fixed top-0 left-0 z-50 w-screen h-screen flex items-center justify-center">
 		<div
-			class={`text-7xl transition-all duration-500 ${
+			class={`text-5xl md:text-7xl transition-all duration-500 ${
 				loadingPhase == 1 ? 'opacity-90' : 'opacity-0'
 			}`}
 		>
