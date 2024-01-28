@@ -13,14 +13,22 @@ border-b-2 select-none pointer-events-none`}
 		<div class="text-3xl text-white/40 m-[1px]">.dev</div>
 	</div>
 	<div class="flex items-center">
-		<a href="https://www.linkedin.com/in/r-nl/" target="_blank" class="pointer-events-auto mr-5">
+		<a
+			href="https://www.linkedin.com/in/r-nl/"
+			target="_blank"
+			class="pointer-events-auto mr-5 hidden md:block"
+		>
 			<img
 				src={linkedinLogo}
 				alt="My Linkedin"
 				class="w-8 transition-all opacity-50 hover:opacity-100"
 			/>
 		</a>
-		<a href="https://github.com/r-nl" target="_blank" class="pointer-events-auto mr-5">
+		<a
+			href="https://github.com/r-nl"
+			target="_blank"
+			class="pointer-events-auto mr-5 hidden md:block"
+		>
 			<img
 				src={githubLogo}
 				alt="My Github"
