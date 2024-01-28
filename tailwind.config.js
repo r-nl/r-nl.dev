@@ -5,10 +5,12 @@ export default {
 		extend: {},
 		colors: {
 			nearBlack: '#100f10',
-      white: '#ffffff'
+			white: '#ffffff',
+			waterBlue: '#2FA4FF'
 		},
 		fontFamily: {
-			sans: ['Montserrat']
+			sans: ['Montserrat'],
+			header:['Poppins']
 		}
 	},
 	plugins: []

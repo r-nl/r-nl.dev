@@ -33,6 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@splinetool/viewer": "^0.9.523"
+		"@splinetool/viewer": "^0.9.526"
 	}
 }
