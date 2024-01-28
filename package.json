@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@splinetool/viewer": "^0.9.526"
+		"@splinetool/viewer": "^0.9.526",
+		"@vercel/analytics": "^1.1.2"
 	}
 }
